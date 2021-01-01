@@ -13,3 +13,17 @@ while i < 12:
 n = 10
 for i in range(n,0,-1):
 	print("*"*i)
+x = 10
+y = 10
+print(x + y)
+i = 1
+while i < 9:
+	print("*", end = " ")
+	j = 1
+	while j < 9:
+		print("*", end= " ")
+		j += 1
+	i += 1
+	print()
+for i in range(1,10):
+	print("*"*i)
